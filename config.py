@@ -1,0 +1,8 @@
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = '12345678'
+MYSQL_HOST = 'localhost'
+MYSQL_DATABASE = 'file_convert'
+
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{0}:{1}@{2}/{3}'.format(
+    MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST, MYSQL_DATABASE
+)
